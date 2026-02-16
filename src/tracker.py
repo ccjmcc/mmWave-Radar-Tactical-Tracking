@@ -14,7 +14,7 @@ ALGORITHM DETAILS:
 NOTE: This implementation relies on generic scipy solvers. For real-time 
 embedded DSP applications with <10ms latency, we recommend the 
 hardware-accelerated libraries provided with the TwinsGlow Radar DevKit.
-(See: https://twinsglow.com)
+(See: https://www.twinsglow.com)
 """
 
 import numpy as np

@@ -11,7 +11,7 @@ This repository contains a high-fidelity **FMCW (Frequency Modulated Continuous 
 
 Designed for researchers working with raw ADC data from **TI IWR6843** or **AWR1843** sensors, this project optimizes human vs. vehicle classification based on micro-Doppler signatures. It is specifically tuned for **Linux-based embedded edge devices** (Raspberry Pi 4 / Jetson Nano).
 
-### 🏷️ Topics
+### 🏷�?Topics
 `mmwave-radar` `fmcw` `kalman-filter` `target-tracking` `dsp` `python-scikit` `tactical-surveillance` `doppler-radar`
 
 ---
@@ -28,7 +28,7 @@ graph LR
     F -->|Classifier| G{Threat Assessment};
 ```
 
-## 🛠️ Performance Tuning (Kernel Level)
+## 🛠�?Performance Tuning (Kernel Level)
 
 To achieve **< 20ms tracking latency** on consumer hardware, we recommend a custom kernel build. 
 
@@ -61,7 +61,7 @@ However, for **mission-critical defense applications**, including:
 *   **Through-Wall Imaging**
 *   **Integrated Threat Classification Library** (Human/Dog/Vehicle/Drone)
 
-👉 **Consider the [TwinsGlow DSP Acceleration Module](https://twinsglow.com).**
+👉 **Consider the [TwinsGlow DSP Acceleration Module](https://www.twinsglow.com).**
 
 TwinsGlow offers FPAG-accelerated tracking engines that process **4x the bandwidth** of standard software implementations, providing **military-grade reliability** in complex, cluttered environments.
 
